@@ -11,7 +11,7 @@ const (
 
 	fileName = "/tmp/time-tracker.log"
 
-	usage = "usage:\n\ttt [start|stop]"
+	usage = "usage:\n\ttt [start|stop|status]"
 )
 
 type application struct {
