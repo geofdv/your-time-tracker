@@ -1,4 +1,4 @@
 # your-time-tracker
 
-usage:
-	tt [start|stop|status]
+usage:\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tt [start|stop|status]
