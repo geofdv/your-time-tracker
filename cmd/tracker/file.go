@@ -31,12 +31,12 @@ func (app *application) writeRecord(r Record) error {
 }
 
 func (app *application) readRecord() (Record, error) {
-	var r Record
-
 	ret, err := app.storage.file.Seek(0, 0)
 	if err != nil || ret < 0 {
 		return Record{}, err
 	}
+
+	var r Record
 
 	err = app.readJSON(app.storage.file, &r)
 	if err != nil {

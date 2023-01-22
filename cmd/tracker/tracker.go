@@ -76,9 +76,5 @@ func (app *application) isTracked() bool {
 		}
 	}
 
-	if r.Event == "start" {
-		return true
-	}
-
-	return false
+	return r.Event == "start"
 }
